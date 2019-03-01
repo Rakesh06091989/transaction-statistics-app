@@ -34,6 +34,12 @@ public class TransactionStatisticsController {
         return new ResponseEntity<String>("The Trasanction has been Created",HttpStatus.CREATED);
     }
 
+    /**
+     *
+     *
+     * @return
+     * @throws TransactionException
+     */
     @GetMapping(path = "/getStatistics",produces = MediaType.APPLICATION_JSON_VALUE)
     public TransactionStatisticsEntity getTransactionStatistics() throws TransactionException {
         logger.info("In getTransactionStatistics method");
