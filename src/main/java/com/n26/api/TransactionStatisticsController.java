@@ -35,7 +35,7 @@ public class TransactionStatisticsController {
     }
 
     /**
-     * This method will get transaction statistics
+     * This method will get transaction statistics of last five minutes
      * @return
      * @throws TransactionException
      */
