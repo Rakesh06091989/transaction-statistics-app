@@ -36,7 +36,6 @@ public class TransactionStatisticsController {
 
     /**
      *
-     *
      * @return
      * @throws TransactionException
      */
